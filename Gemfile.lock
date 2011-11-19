@@ -1,0 +1,35 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chunky_png (1.2.5)
+    compass (0.11.5)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    fssm (0.2.7)
+    haml (3.1.3)
+    kgio (2.6.0)
+    rack (1.3.5)
+    rack-protection (1.1.4)
+      rack
+    raindrops (0.8.0)
+    sass (3.1.10)
+    sinatra (1.3.1)
+      rack (~> 1.3, >= 1.3.4)
+      rack-protection (~> 1.1, >= 1.1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    tilt (1.3.3)
+    unicorn (4.1.1)
+      kgio (~> 2.4)
+      rack
+      raindrops (~> 0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass (~> 0.11.5)
+  haml (~> 3.1.3)
+  sass (~> 3.1.10)
+  sinatra (~> 1.3.1)
+  unicorn (= 4.1.1)
