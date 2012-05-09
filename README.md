@@ -7,6 +7,8 @@ This bootstrap contains a barebone Sinatra application with the following librar
 * compass
 * haml
 * [partials.rb](https://gist.github.com/119874)
+* jquery
+* jquery easing
 
 Why?
 ----
